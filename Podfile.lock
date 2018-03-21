@@ -1,0 +1,34 @@
+PODS:
+  - BAAlert (1.2.5)
+  - BAAlertController (1.0.2)
+  - BAButton (2.6.5)
+  - pop (1.0.10)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - Shimmer (1.0.2)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - BAAlert
+  - BAAlertController
+  - BAButton
+  - pop
+  - SDWebImage
+  - Shimmer
+  - YYImage
+
+SPEC CHECKSUMS:
+  BAAlert: a35527fddd27874a92276fafb5bd6170470b62fc
+  BAAlertController: d503d871e33082e6b8c21fbdbf803bf0a8aba64b
+  BAButton: 4a59120abd74ca52aa5d85552d0cc0cf997ed0a2
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 9898cc9529f8ede9e408f787372a5b971f222115
+
+COCOAPODS: 1.4.0
