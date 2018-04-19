@@ -60,6 +60,7 @@
 
 #import "BAKit_Location.h"
 
+#import "BAKit_DefineCommon.h"
 
 @interface BAKit_Location ()<CLLocationManagerDelegate>
 

@@ -7,9 +7,16 @@
 //
 
 #import "BAKit_Helper.h"
-#import "AppDelegate.h"
 #import <CoreLocation/CoreLocation.h>
 #import "BAKit_RegularExpression.h"
+
+#import "BAKit_DefineCommon.h"
+#import "BAKit_DefineSystem.h"
+
+#import "UIViewController+BAKit.h"
+#import "UIViewController+BABottomLine.h"
+
+#import "UIImage+BAColor.h"
 
 @implementation BAKit_Helper
 

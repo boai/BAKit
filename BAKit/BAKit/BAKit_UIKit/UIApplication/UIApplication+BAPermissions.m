@@ -17,6 +17,9 @@
 #import <CoreMotion/CoreMotion.h>
 #import <EventKit/EventKit.h>
 
+#import "BAKit_DefineCommon.h"
+
+
 typedef void (^BAKit_LocationSuccessBlock)();
 typedef void (^BAKit_LocationFailureBlock)();
 

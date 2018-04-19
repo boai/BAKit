@@ -7,6 +7,8 @@
 //
 
 #import "UITableView+BAKit.h"
+#import "BAKit_Color.h"
+#import "BAKit_DefineCommon.h"
 
 @implementation UITableView (BAKit)
 

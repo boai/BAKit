@@ -8,6 +8,7 @@
 
 #import "BAKit_LoadingView.h"
 
+#import "BAKit_DefineCommon.h"
 
 /*!
  *  获取屏幕宽度和高度

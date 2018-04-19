@@ -60,6 +60,10 @@
 #import "UIView+BAKit.h"
 #import <AudioToolbox/AudioToolbox.h>
 
+#import "BAKit_UserDefaults.h"
+#import "BAKit_DefineCommon.h"
+#import "UIView+BARectCorner.h"
+
 @implementation UIView (BAKit)
 
 /**

@@ -32,7 +32,7 @@
     [self.view addSubview:gradualProgressView];
     
     [self performSelector:@selector(gradualProgressWithView:) withObject:gradualProgressView afterDelay:2.];
-    [self.textField ba_textFieldAddInputAccessoryViewButtonWithTitle:@"测试"];
+//    [self.textField ba_textFieldAddInputAccessoryViewButtonWithTitle:@"测试"];
     
 }
 

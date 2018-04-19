@@ -80,6 +80,7 @@
 
 
 #import "NSDateFormatter+BAKit.h"
+#import "BAKit_DefineFormat.h"
 
 @implementation NSDateFormatter (BAKit)
 

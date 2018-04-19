@@ -9,6 +9,9 @@
 #import "BAKitVC_UINavigation.h"
 #import "BAKitVC_UINavigation2.h"
 
+#import "BAKit_Color.h"
+#import "BAKit_DefineFont.h"
+#import "BAKit_DefineCommon.h"
 
 @interface BAKitVC_UINavigation ()
 

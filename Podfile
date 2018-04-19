@@ -18,12 +18,13 @@ target 'BAKit' do
     pod 'SDWebImage'
     pod 'pop'
     pod 'Shimmer'
-    
-    
-#    pod 'BAPickView'
+
     pod 'BAButton'
     pod 'BAAlert'
+    pod 'BAGridView'
     pod 'BAAlertController'
 
+    pod 'BATextField'
+    pod 'BATextView'
 
 end

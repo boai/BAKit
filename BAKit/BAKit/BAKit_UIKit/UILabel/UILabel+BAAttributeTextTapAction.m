@@ -10,6 +10,7 @@
 #import <objc/runtime.h>
 #import <CoreText/CoreText.h>
 #import <Foundation/Foundation.h>
+#import "BAKit_DefineCommon.h"
 
 @implementation BAAttributeModel
 

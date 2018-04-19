@@ -7,6 +7,9 @@
 //
 
 #import "BABadgeLabel.h"
+#import "UIView+BAFrame.h"
+
+#import "BAKit_DefineFrame.h"
 
 @implementation BABadgeLabel
 

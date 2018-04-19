@@ -7,6 +7,13 @@
 //
 
 #import "ImageViewAnimationVC.h"
+#import "BAKit_Color.h"
+
+#import "BAButton.h"
+
+#import "UIImageView+BAAnimation.h"
+#import "BAKit_DefineCommon.h"
+#import "UIView+BAFrame.h"
 
 @interface ImageViewAnimationVC ()
 
@@ -31,7 +38,7 @@
     _button.backgroundColor = BAKit_Color_Blue_DarkBlue;
     [_button ba_buttonAddTarget:self tag:0 action:@selector(click)];
     [self.view addSubview:_button];
-    
+        
     [self addImageArray];
 }
 

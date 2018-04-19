@@ -8,6 +8,12 @@
 
 #import "BAOtherViewController.h"
 
+#import "BAKit_Color.h"
+#import "BAKit_DefineCommon.h"
+
+#import "BAKit_UITableView.h"
+#import "UIView+BAAnimation.h"
+
 @interface BAOtherViewController ()
 
 @property (nonatomic, strong) NSMutableArray *titlesArray;

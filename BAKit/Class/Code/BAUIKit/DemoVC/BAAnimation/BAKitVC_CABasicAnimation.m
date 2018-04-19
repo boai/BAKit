@@ -7,6 +7,17 @@
 //
 
 #import "BAKitVC_CABasicAnimation.h"
+#import "BAKit_DefineFrame.h"
+
+#import "BAKit_Color.h"
+
+#import "CABasicAnimation+BAKit.h"
+#import "UIView+BAAnimation.h"
+#import "UIView+BAFrame.h"
+
+#import "BAButton.h"
+#import "BAKit_DefineFont.h"
+
 
 #define min_y   100
 #define min_y1  min_y + 80

@@ -11,6 +11,9 @@
 #include <ifaddrs.h>
 #include <arpa/inet.h>
 
+#import "NSString+BATime.h"
+#import "BAKit_RegularExpression.h"
+
 @implementation NSString (BAKit)
 
 /**

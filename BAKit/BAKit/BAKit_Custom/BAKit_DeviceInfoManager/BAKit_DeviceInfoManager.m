@@ -42,6 +42,8 @@
 // 磁盘
 #import <sys/mount.h>
 
+#import <objc/runtime.h>
+
 @interface BAKit_DeviceInfoManager ()
 
 @property (nonatomic, assign) BOOL batteryMonitoringEnabled;

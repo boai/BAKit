@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+BATransition.h"
+#import "BAKit_ClearCacheManager.h"
 
 @interface BABaseViewController : UIViewController
 

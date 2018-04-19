@@ -7,6 +7,7 @@
 //
 
 #import "BAInfiniteRotationView.h"
+#import "CABasicAnimation+BAKit.h"
 
 @interface BAInfiniteRotationView ()
 

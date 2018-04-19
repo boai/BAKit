@@ -7,6 +7,7 @@
 //
 
 #import "UITabBarItem+BAKit.h"
+#import "BAKit_DefineCommon.h"
 
 @implementation UITabBarItem (BAKit)
 

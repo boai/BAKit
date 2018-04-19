@@ -9,6 +9,8 @@
 #import "BAKitVC_ScaleAnimation.h"
 #import "BAScaleAnimationView.h"
 
+#import "BAKit_DefineFrame.h"
+
 @interface BAKitVC_ScaleAnimation ()
 
 @property(nonatomic, strong) NSMutableArray *mutableDataArray;

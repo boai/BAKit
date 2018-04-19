@@ -8,6 +8,8 @@
 
 #import "UIView+BAAnimation.h"
 
+#import "CALayer+BAAnimation.h"
+
 @implementation UIView (BAAnimation)
 
 /*!

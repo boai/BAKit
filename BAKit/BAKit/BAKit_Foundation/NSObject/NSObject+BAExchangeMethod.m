@@ -59,6 +59,7 @@
 
 
 #import "NSObject+BAExchangeMethod.h"
+#import <objc/runtime.h>
 
 @implementation NSObject (BAExchangeMethod)
 +(void )ba_exchangeMethod:(SEL)method1 method:(SEL)method2

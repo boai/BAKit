@@ -59,6 +59,9 @@
  */
 
 #import "BANavigationController.h"
+#import "BAKit_Helper.h"
+#import "BAKit_Color.h"
+#import "BAKit_DefineFont.h"
 
 @interface BANavigationController ()<UINavigationControllerDelegate>
 

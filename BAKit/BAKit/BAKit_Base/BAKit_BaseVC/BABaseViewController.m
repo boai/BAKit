@@ -8,6 +8,11 @@
 
 #import "BABaseViewController.h"
 
+#import "BAKit_Color.h"
+
+#import "BAKit_DefineTip.h"
+#import "BAAlertController.h"
+
 @interface BABaseViewController ()
 
 @end

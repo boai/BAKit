@@ -8,6 +8,12 @@
 
 #import "BAKitVC_CABasicAnimation2.h"
 
+#import "BAKit_DefineCommon.h"
+
+#import "CABasicAnimation+BAKit.h"
+#import "UIView+BAFrame.h"
+#import "BAKit_Color.h"
+
 @interface BAKitVC_CABasicAnimation2 ()
 
 @property(nonatomic, strong) UIImageView *imageView;

@@ -9,6 +9,12 @@
 #import "BAKit_PhotoKitManager.h"
 #import <Photos/Photos.h>
 
+#import "BAKit_DefineCommon.h"
+#import "BAKit_DefineFrame.h"
+
+#import "BAAlertController.h"
+#import "BAKit_Color.h"
+
 @implementation BAKit_PhotoKitManager
 
 /**

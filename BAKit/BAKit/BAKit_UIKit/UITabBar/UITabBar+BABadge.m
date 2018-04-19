@@ -8,6 +8,10 @@
 
 #import "UITabBar+BABadge.h"
 
+#import "BAKit_DefineFont.h"
+#import "BAKit_Color.h"
+
+#import <objc/runtime.h>
 
 static NSString * const kTabBarItemWidthKey = @"kTabBarItemWidthKey";
 

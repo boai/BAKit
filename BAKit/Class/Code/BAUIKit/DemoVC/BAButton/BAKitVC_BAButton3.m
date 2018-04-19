@@ -9,6 +9,9 @@
 #import "BAKitVC_BAButton3.h"
 #import "BAButton.h"
 
+#import "BAKit_Color.h"
+
+
 @interface BAKitVC_BAButton3 ()
 @property (weak, nonatomic) IBOutlet UIButton *btn1;
 @property (weak, nonatomic) IBOutlet UIButton *btn2;

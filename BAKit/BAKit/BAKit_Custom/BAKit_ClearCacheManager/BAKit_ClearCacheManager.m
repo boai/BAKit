@@ -7,6 +7,7 @@
 //
 
 #import "BAKit_ClearCacheManager.h"
+#import "NSFileManager+BAKit.h"
 
 @implementation BAKit_ClearCacheManager
 

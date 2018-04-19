@@ -7,6 +7,11 @@
 //
 
 #import "BAKitVC_InterestingLabel.h"
+#import "BAKit_Color.h"
+#import "BAKit_DefineFrame.h"
+#import "BAKit_DefineFont.h"
+
+#import "UIView+BAKit.h"
 
 @interface BAKitVC_InterestingLabel ()
 

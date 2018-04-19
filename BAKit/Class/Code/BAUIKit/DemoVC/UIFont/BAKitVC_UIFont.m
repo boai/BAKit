@@ -9,6 +9,10 @@
 #import "BAKitVC_UIFont.h"
 #import "BAKitVC_UIFontDetailViewController.h"
 
+#import "BAKit_UITableView.h"
+#import "BAKit_DefineCommon.h"
+#import "UIFont+BAKit.h"
+
 @interface BAKitVC_UIFont ()
 
 @property(nonatomic, strong) NSMutableArray *mutableDataArray;
