@@ -7,6 +7,7 @@
 //
 
 #import "BAKitVC_UIFontDetailViewController.h"
+#import "BAKit_DefineFrame.h"
 
 @interface BAKitVC_UIFontDetailViewController ()
 

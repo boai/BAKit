@@ -11,6 +11,12 @@
 #import "UIView+BAAnimation.h"
 #import "UIView+BARectCorner.h"
 
+#import "BAKit_Color.h"
+#import "BAKit_DefineCommon.h"
+#import "BAKit_DefineCurrent.h"
+#import "BAKit_DefineFrame.h"
+
+
 static NSString *const BAKit_DatePickerCellID = @"cell" ;
 
 #define BAKit_Default_Height    240

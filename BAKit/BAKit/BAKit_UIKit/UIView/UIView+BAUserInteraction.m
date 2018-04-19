@@ -8,6 +8,9 @@
 
 #import "UIView+BAUserInteraction.h"
 
+#import "BAKit_DefineCommon.h"
+
+
 @interface UIView ()
 
 @property (nonatomic, strong) NSNumber  *userInteractionNumbers;

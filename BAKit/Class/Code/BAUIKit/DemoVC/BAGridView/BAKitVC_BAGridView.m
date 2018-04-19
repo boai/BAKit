@@ -9,6 +9,7 @@
 #import "BAKitVC_BAGridView.h"
 
 #import "BAKit_BAGridView.h"
+#import "BAKit_Color.h"
 
 static NSString * const kCellID = @"BAKitVC_BAGridViewCell";
 

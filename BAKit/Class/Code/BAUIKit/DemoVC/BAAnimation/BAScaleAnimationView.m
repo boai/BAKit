@@ -7,6 +7,11 @@
 //
 
 #import "BAScaleAnimationView.h"
+#import "BAKit_Color.h"
+
+#import "CABasicAnimation+BAKit.h"
+#import "UIView+BAKit.h"
+
 
 @interface BAScaleAnimationView ()
 

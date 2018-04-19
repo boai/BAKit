@@ -7,6 +7,7 @@
 //
 
 #import "BAGradualProgressView.h"
+#import "BAKit_Color.h"
 
 @interface BAGradualProgressView ()<CAAnimationDelegate>
 

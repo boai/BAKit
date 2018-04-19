@@ -22,7 +22,7 @@
 #pragma mark Transition 动画
 #import "UIView+BATransition.h"
 #pragma mark 切不同角的圆角
-//#import "UIView+BARectCorner.h"
+#import "UIView+BARectCorner.h"
 #pragma mark 辉光效果
 #import "UIView+BAGlowView.h"
 #pragma mark 用户交互

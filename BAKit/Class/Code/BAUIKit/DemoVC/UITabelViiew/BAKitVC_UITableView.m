@@ -12,6 +12,8 @@
 
 #import <NetworkExtension/NetworkExtension.h>
 
+#import "BAKit_Color.h"
+#import "BAKit_DefineCommon.h"
 
 @interface BAKitVC_UITableView ()
 

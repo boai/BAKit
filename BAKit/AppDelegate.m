@@ -14,6 +14,15 @@
 #import "BAFoundationViewController.h"
 #import "BAOtherViewController.h"
 
+#import "BAKit_Color.h"
+
+#import "BANavigationController.h"
+#import "BAKit_DefineCommon.h"
+
+#import "UITabBarItem+BAKit.h"
+#import "UITabBarItem+BABadgeView.h"
+
+
 @interface AppDelegate () <UITabBarControllerDelegate>
 
 @end

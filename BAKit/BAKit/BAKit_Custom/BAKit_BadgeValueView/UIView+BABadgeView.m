@@ -8,6 +8,8 @@
 
 #import "UIView+BABadgeView.h"
 #import "BABadgeLabel.h"
+#import "UIView+BAFrame.h"
+#import "BAKit_DefineCommon.h"
 
 @interface UIView ()
 

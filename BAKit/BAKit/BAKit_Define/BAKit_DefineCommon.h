@@ -61,6 +61,7 @@
 #define BAKit_DefineCommon_h
 
 #import <objc/runtime.h>
+#import "NSString+BATrims.h"
 
 
 #ifndef __OPTIMIZE__

@@ -9,6 +9,8 @@
 #import "NSString+BAImageNameUrlString.h"
 #import "pinyin.h"
 
+#import "BAKit_DefineCommon.h"
+#import "BAKit_Color.h"
 
 @interface BAKit_DefaultPortraitView : UIView
 

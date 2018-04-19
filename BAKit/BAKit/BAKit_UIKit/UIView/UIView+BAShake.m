@@ -9,6 +9,8 @@
 
 #import "UIView+BAShake.h"
 
+#import <objc/runtime.h>
+
 #define HAS_OPT(options, option) ((options & option) == option)
 
 @interface SCShakeInfo : NSObject

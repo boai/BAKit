@@ -8,6 +8,16 @@
 
 #import "BAKitVC_ScaleLabel.h"
 
+#import "BAKit_ScaleLabel.h"
+#import "BAKit_DefineCommon.h"
+#import "BAKit_DefineFrame.h"
+#import "UIView+BAFrame.h"
+#import "BAKit_Color.h"
+
+#import "UIFont+BAKit.h"
+
+#import "GCD.h"
+
 @interface BAKitVC_ScaleLabel ()
 
 @property(nonatomic, strong) BAKit_ScaleLabel *label;

@@ -8,6 +8,14 @@
 
 #import "BAKitVC_DeviceInfoManager.h"
 
+#import "BAKit_DeviceInfoManager.h"
+#import "BAKit_Color.h"
+
+#import "BAKit_UITableView.h"
+#import "BAKit_DefineCommon.h"
+
+#import "UIView+BAAnimation.h"
+#import "NSDateFormatter+BAKit.h"
 
 @interface BAKitVC_DeviceInfoManager ()
 

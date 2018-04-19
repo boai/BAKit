@@ -13,6 +13,9 @@
 #import "BAKitVC_ShimmerLabel.h"
 #import "BAKitVC_InterestingLabel.h"
 
+#import "BAKit_Color.h"
+#import "BAKit_DefineCommon.h"
+
 @interface BAKitVC_UILabel ()
 
 @property(nonatomic, strong) NSMutableArray *mutableDataArray;

@@ -7,6 +7,7 @@
 //
 
 #import "BAKit_Const_Color.h"
+#import "BAKit_DefineCommon.h"
 
 // 主题黄色
 UIColor *BAKit_Color_ThemYellow;

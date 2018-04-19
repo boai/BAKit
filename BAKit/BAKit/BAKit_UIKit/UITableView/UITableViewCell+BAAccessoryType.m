@@ -59,6 +59,7 @@
 
 
 #import "UITableViewCell+BAAccessoryType.h"
+#import "UIView+BAFrame.h"
 
 @implementation UITableViewCell (BAAccessoryType)
 

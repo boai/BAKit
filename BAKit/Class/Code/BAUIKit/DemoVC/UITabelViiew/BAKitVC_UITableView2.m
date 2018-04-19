@@ -8,6 +8,9 @@
 
 #import "BAKitVC_UITableView2.h"
 
+#import "BAKit_Color.h"
+#import "BAKit_DefineFont.h"
+
 @interface BAKitVC_UITableView2 ()
 
 @property(nonatomic, strong) NSArray <NSArray *>*titleArray;

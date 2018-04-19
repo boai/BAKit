@@ -8,6 +8,8 @@
 
 #import "UIView+BAAnimationProperty.h"
 
+#import "BAKit_DefineCommon.h"
+
 @implementation UIView (BAAnimationProperty)
 
 #pragma mark - setter getter

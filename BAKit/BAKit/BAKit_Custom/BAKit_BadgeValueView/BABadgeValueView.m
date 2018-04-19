@@ -7,6 +7,7 @@
 //
 
 #import "BABadgeValueView.h"
+#import "UIView+BAFrame.h"
 
 @interface BABadgeValueView ()
 

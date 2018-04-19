@@ -8,6 +8,7 @@
 
 #import "BAKitVC_BAButton2.h"
 #import "BAButton.h"
+#import "BAKit_Color.h"
 
 @interface BAKitVC_BAButton2 ()
 

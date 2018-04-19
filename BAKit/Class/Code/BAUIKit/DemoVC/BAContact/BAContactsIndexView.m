@@ -8,6 +8,11 @@
 
 #import "BAContactsIndexView.h"
 
+#import "BAKit_Color.h"
+#import "BAKit_DefineCommon.h"
+#import "BAKit_DefineFont.h"
+#import "BAKit_DefineFrame.h"
+
 // 字体变化率
 #define FONT_RATE 1/8.000
 // 透明度变化率

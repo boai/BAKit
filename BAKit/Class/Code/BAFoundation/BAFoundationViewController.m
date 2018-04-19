@@ -9,6 +9,12 @@
 #import "BAFoundationViewController.h"
 #import "AppDelegate.h"
 
+#import "BAKit_Color.h"
+#import "BAKit_DefineCommon.h"
+
+#import "BAKit_UITableView.h"
+#import "UIView+BAAnimation.h"
+
 @interface BAFoundationViewController ()
 
 @property (nonatomic, strong) NSMutableArray  *titlesArray;

@@ -64,6 +64,12 @@
 #import "NSDate+BAKit.h"
 #import "UIView+BAAnimation.h"
 #import "UIView+BARectCorner.h"
+#import "BAKit_Color.h"
+#import "BAKit_DefineCommon.h"
+#import "BAKit_DefineFrame.h"
+#import "UIView+BAFrame.h"
+
+#import "BAKit_DefineCurrent.h"
 
 #define kBAKit_PickerView_H        200 * BAKit_ScaleYAndHeight
 #define kBAKit_PickerViewToolBar_H 40 * BAKit_ScaleYAndHeight

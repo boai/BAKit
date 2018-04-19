@@ -7,6 +7,7 @@
 //
 
 #import "UINavigationBar+BAKit.h"
+#import "BAKit_DefineCommon.h"
 
 @implementation UINavigationBar (BAKit)
 

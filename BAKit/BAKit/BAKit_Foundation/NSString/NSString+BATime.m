@@ -9,6 +9,8 @@
 
 #import "NSString+BATime.h"
 #import "NSDate+BAKit.h"
+#import "BAKit_DefineFormat.h"
+#import "NSDateFormatter+BAKit.h"
 
 @implementation NSString (BATime)
 

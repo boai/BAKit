@@ -7,6 +7,9 @@
 //
 
 #import "UITabBarController+BAKit.h"
+#import "BAKit_DefineCommon.h"
+
+#import "UIImage+BAColor.h"
 
 @implementation UITabBarController (BAKit)
 

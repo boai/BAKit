@@ -15,6 +15,18 @@
 #import <Contacts/Contacts.h>
 #import <ContactsUI/ContactsUI.h>
 
+#import "BAKit_Color.h"
+#import "BAKit_DefineFrame.h"
+#import "BAKit_DefineFont.h"
+#import "BAKit_DefineCommon.h"
+
+#import "BAButton.h"
+#import "BAKit_LocalizedIndexedCollation.h"
+
+#import "UIImage+BARender.h"
+#import "NSString+BAKit.h"
+#import "NSMutableAttributedString+BAKit.h"
+#import "BAAlertController.h"
 
 static NSString * const cellID = @"BAContactViewCell";
 

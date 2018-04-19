@@ -7,6 +7,9 @@
 //
 
 #import "UIView+BAGlowView.h"
+#import "BAKit_Color.h"
+#import "BAKit_DefineCommon.h"
+#import "CABasicAnimation+BAKit.h"
 
 @interface UIView ()
 

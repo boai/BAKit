@@ -60,6 +60,9 @@
 
 #import "NSDate+BAKit.h"
 #import "NSDateFormatter+BAKit.h"
+#import "BAKit_DefineCurrent.h"
+
+#import "BAKit_DefineFormat.h"
 
 #define k_MINUTE	60
 #define k_HOUR		3600
