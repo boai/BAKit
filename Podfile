@@ -18,6 +18,7 @@ target 'BAKit' do
     pod 'SDWebImage'
     pod 'pop'
     pod 'Shimmer'
+    pod 'OOMDetector'
 
     pod 'BAButton'
     pod 'BAAlert'

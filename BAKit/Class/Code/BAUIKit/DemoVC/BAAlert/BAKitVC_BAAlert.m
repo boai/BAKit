@@ -304,7 +304,7 @@ static NSString * const titleMsg2 = @"对于 MacBook，我们给自己设定了�
         //        /*! 进出场动画样式 默认为：1 */
         //        tempView.animatingStyle  = 1;
         self.alertView1 = tempView;
-    } actionBlock:^(NSInteger index) {
+    } actionBlock:^(BAAlert *tempView, NSInteger index) {
         BAKit_StrongSelf
         [self.alertView1 ba_alertHidden];
         if (index == 1)
@@ -334,7 +334,7 @@ static NSString * const titleMsg2 = @"对于 MacBook，我们给自己设定了�
 
         self.alertView2 = tempView;
 
-    } actionBlock:^(NSInteger index) {
+    } actionBlock:^(BAAlert *tempView, NSInteger index) {
         BAKit_StrongSelf
         [self.alertView2 ba_alertHidden];
         if (index == 0)
@@ -368,7 +368,7 @@ static NSString * const titleMsg2 = @"对于 MacBook，我们给自己设定了�
         tempView.animatingStyle  = BAAlertAnimatingStyleFall;
         
         self.alertView3 = tempView;
-    } actionBlock:^(NSInteger index) {
+    } actionBlock:^(BAAlert *tempView, NSInteger index) {
         BAKit_StrongSelf
         [self.alertView3 ba_alertHidden];
         if (index == 0)
@@ -398,7 +398,7 @@ static NSString * const titleMsg2 = @"对于 MacBook，我们给自己设定了�
         /*! 是否显示动画效果 */
         tempView.showAnimate = YES;
         self.alertView4 = tempView;
-    } actionBlock:^(NSInteger index) {
+    } actionBlock:^(BAAlert *tempView, NSInteger index) {
         BAKit_StrongSelf
         [self.alertView4 ba_alertHidden];
         if (index == 0)

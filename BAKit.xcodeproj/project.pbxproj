@@ -188,6 +188,7 @@
 		C4738C231EFB716500608E17 /* pic7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4738BE11EFB716500608E17 /* pic7.jpg */; };
 		C4738C241EFB716500608E17 /* pic8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4738BE21EFB716500608E17 /* pic8.jpg */; };
 		C4738C251EFB716500608E17 /* picon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4738BE31EFB716500608E17 /* picon.jpg */; };
+		C4854A1C208979AE0046D6D7 /* BAOOMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4854A1A208979AD0046D6D7 /* BAOOMDataManager.m */; };
 		C4880EF61F4EB4CE00530088 /* BAFoundationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4880E7D1F4EB4CE00530088 /* BAFoundationViewController.m */; };
 		C4880EF71F4EB4CE00530088 /* BAKitVC_BAImageNameUrlString.m in Sources */ = {isa = PBXBuildFile; fileRef = C4880E811F4EB4CE00530088 /* BAKitVC_BAImageNameUrlString.m */; };
 		C4880EF81F4EB4CE00530088 /* BAKitVC_NSMutableAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = C4880E831F4EB4CE00530088 /* BAKitVC_NSMutableAttributedString.m */; };
@@ -595,6 +596,8 @@
 		C4738BE11EFB716500608E17 /* pic7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic7.jpg; sourceTree = "<group>"; };
 		C4738BE21EFB716500608E17 /* pic8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic8.jpg; sourceTree = "<group>"; };
 		C4738BE31EFB716500608E17 /* picon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picon.jpg; sourceTree = "<group>"; };
+		C4854A1A208979AD0046D6D7 /* BAOOMDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAOOMDataManager.m; sourceTree = "<group>"; };
+		C4854A1B208979AE0046D6D7 /* BAOOMDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAOOMDataManager.h; sourceTree = "<group>"; };
 		C4880E7C1F4EB4CE00530088 /* BAFoundationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAFoundationViewController.h; sourceTree = "<group>"; };
 		C4880E7D1F4EB4CE00530088 /* BAFoundationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAFoundationViewController.m; sourceTree = "<group>"; };
 		C4880E801F4EB4CE00530088 /* BAKitVC_BAImageNameUrlString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKitVC_BAImageNameUrlString.h; sourceTree = "<group>"; };
@@ -1879,6 +1882,8 @@
 		C4880F2E1F5000C200530088 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C4854A1B208979AE0046D6D7 /* BAOOMDataManager.h */,
+				C4854A1A208979AD0046D6D7 /* BAOOMDataManager.m */,
 				C4880F2F1F5000DA00530088 /* AppDelegate */,
 			);
 			path = Tools;
@@ -2270,10 +2275,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BAKit/Pods-BAKit-resources.sh",
 				"${PODS_ROOT}/BAAlert/BAAlert/BAAlert/BAAlert.bundle",
+				"${PODS_ROOT}/OOMDetector/assets/oomgif.gif",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BAAlert.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/oomgif.gif",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2366,6 +2373,7 @@
 				C4880F1D1F4EB4CE00530088 /* BAKitVC_ScaleLabel.m in Sources */,
 				C4880EFF1F4EB4CE00530088 /* BAKitVC_BasicAnimation.m in Sources */,
 				C4256FA5207CB31D00B5B60A /* UIView+BAGesture.m in Sources */,
+				C4854A1C208979AE0046D6D7 /* BAOOMDataManager.m in Sources */,
 				C4256FBB207CB31D00B5B60A /* NSString+BARange.m in Sources */,
 				C4256F8A207CB31D00B5B60A /* UIView+BAAnimationProperty.m in Sources */,
 				C4256F5F207CB31D00B5B60A /* BAKit_LoadingView.m in Sources */,

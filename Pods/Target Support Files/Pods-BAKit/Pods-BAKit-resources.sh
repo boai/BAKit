@@ -93,9 +93,11 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/BAAlert/BAAlert/BAAlert/BAAlert.bundle"
+  install_resource "${PODS_ROOT}/OOMDetector/assets/oomgif.gif"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/BAAlert/BAAlert/BAAlert/BAAlert.bundle"
+  install_resource "${PODS_ROOT}/OOMDetector/assets/oomgif.gif"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
